@@ -5,20 +5,23 @@ Work so far :
 3) Trend has been computed over time on a yearly, half-yearly, quarterly and monthly basis. (refer to : oil_companies_filter.ipynb)
 4) Two CSVs holding trend relations of (crude oil,dependent companies) and (crude oil, less dependent companies) over time has been made using the analyseTimeSeries_2() method. [DA_OilTrends - Oil_Companies.csv , DA_OilTrends - Other_Industries.csv]
 
-Note : Many entries are filed with "NOT AVAILABLE" due to missing values or because the company went public recently. The companies existing since 2012 have been considered for analysis.
+Note : Many entries are filled with "NOT AVAILABLE" due to missing values or because the company went public recently. The companies existing since 2012 have been considered for analysis.
 
-5) In "analyse_sectors.ipynb" we have two ways of trend correlations. Methods defined in "analyse_sectors.ipynb" have been used in "analyse_independent_sectors.ipynb" as well.
+5) In "analyse_sectors.ipynb" we have three ways of trend correlations. Methods defined in "analyse_sectors.ipynb" have been used in "analyse_independent_sectors.ipynb" as well. "max_logic.ipynb" and "max_logic_weak.ipynb" cover the correlation by considering the most frequent trend across the industry
 
 
 Results - 
 
-No significant trend correlation. We have to look at other ways to find if there is any correlation between (crude oil, industry)
+The third correlation approach yeilded results.
 
-Further Work - 
 
-We could come up with models that help predict the trend of a company, given the crude oil trend history and sector.
-Models - 
-1) Neural network model
-2) Decision Tree model (Saw some paper)
+Files : 
 
-These are recommendations only. We have to work till we get some results.
+oil_companies_filter.ipynb - Two methods are defined to find trend of a time series.
+
+analyse_sectors.ipynb - Has first two methods for correlating trends for strong companies.
+analyse_independent_sectors.ipynb - Has first two methods for correlating trends for weak companies.
+max_logic.ipynb - Has the third method of correlation for strong companies.
+max_logic_weak.ipynb - Has the third method of correlation for weak companies.
+
+Note : The markdown sections of these ipynb files have explanations.
