@@ -1,0 +1,19 @@
+Industry,Companies,Yearly,Half Yearly,Quarterly,Monthly,Insights
+Refineries/ Petro-Products,7,nil,"(0, 0, -1) 0.7142857142857143",nil,nil,"Half yearly : When there is down trend in crude oil, the selling price of the petro products might have also come down and hence there is down trend"
+Fibres & Plastics,7,nil,"(0, 0, -1) 0.8571428571428571",nil,nil,"Half yearly : When there is down trend in crude oil, the selling price of the plastic products might have also come down and hence there is down trend"
+Agrochemicals,19,"(0, 0, 1) 0.7142857142857143",nil,nil,"(0, 0, 0) 0.7261904761904762","Yearly : Agrochemicals like pesticides which use petroleum byproducts as their key ingredient exhibit an up trend when the crude oil commidity price falls
+Monthly : This industry doesn’t exhibit a significant monthly trend"
+Oil Marketing & Distribution,8,"(0, 0, 1) 0.7142857142857143",nil,nil,nil,Yearly : This industry which mainly comprises of lubricants and oil & gas distribution benfits from the crude oil price falling down.
+Plastic Products,38,"(0, -1, 1) 0.7142857142857143","(0, 0, -1) 0.7142857142857143","(0, 0, 0) 0.7142857142857143","(0, 0, 0) 0.8095238095238095","Yearly : As plastic uses crude oil in it’s formation, the plastic products industry falls down as the crude oil price increases and it rises as crude oil price decreases"
+Oil Equipment & Services,4,nil,"(0, 1, -1) 0.7857142857142857",nil,nil,Too few companies to draw insights
+Petrochemicals,5,nil,"(0, 1, -1) 0.7857142857142857",nil,nil,Too few companies to draw insights
+Integrated Oil & Gas,2,"(0, 0, 0) 1.0","(0, 0, 0) 0.8571428571428571","(0, 0, 0) 0.7857142857142857","(0, 0, 0) 0.8095238095238095",Too few companies to draw insights
+Shipping,10,"(0, -1, 1) 0.7142857142857143","(0, 1, -1) 0.7142857142857143","(0, 0, 0) 0.7142857142857143",nil,"Yearly : As shipping industry uses fuel for it’s operations, the up trend in crude oil would mean more expenditure on fuel to continue it’s operations and hence it’s down trend and vice versa"
+Airlines,3,"(1, -1, 0) 0.8571428571428571",nil,nil,nil,Too few companies to draw insights
+Fertilizers,16,nil,nil,nil,"(0, 0, 0) 0.7261904761904762",nil
+Transportation - Logistics,8,"(0, 0, 1) 0.8571428571428571",nil,nil,nil,Yearly : Logistics industry performs well when there is a reduction in fuel prices i.e during down trend in crude oil commodity
+Travel Support Services,3,nil,nil,nil,nil,Too few companies to draw insights
+Transport Related Services,6,nil,nil,"(0, 0, 0) 0.7142857142857143","(0, 0, 0) 0.7142857142857143",Too few companies to draw insights
+Surface Transportation,4,"(0, 0, 1) 0.8571428571428571","(0, 0, 1) 0.7857142857142857",nil,nil,Too few companies to draw insights
+Auto Tyres & Rubber Products,15,nil,nil,nil,nil,nil
+Cement & Cement Products,34,nil,"(0, 1, -1) 0.7142857142857143",nil,nil,Half yearly : Cement uses coke as a raw material for it’s production. An increase in raw material cost would increase the selling price of cement and it’s products. Hence up trend in crude oil shows up trend in this industry and vice versa
